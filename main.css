@@ -1,0 +1,10 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+#logo{
+    border-radius: 50%;
+}
+.navbar-nav{
+    color: white;
+}

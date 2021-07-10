@@ -1,0 +1,58 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.column_speaker {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    
+    
+  }
+
+  .row_speaker{
+      margin-top: 50px;
+      margin-left: 20%;
+  }
+  
+  /* Clear floats after the column_speakers */
+  .row_speaker:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  /* Responsive layout - makes the three column_speakers stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) 
+  {
+    .column_speaker {
+      width: 100%;
+    }
+  }
