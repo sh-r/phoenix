@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    background-color: #000000;
+}
+
+.header{
+    padding: 60px;
+    text-align:center;
+    background-color: #000000;
+    background-image: url(../images/four.gif);
+    height: 500px;
+}
+
+.row{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.content{
+   color:#ffffff;
+   font-size: 110%;
+   flex: 60%;
+   padding: 20px; 
+   width=100%;
+}
+
+.side{
+    flex: 20%;
+    background-color: #181919; 
+    padding: 20px;
+    width=100%;
+}
+
+div.right{
+    padding: 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+div a {
+    display: block;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+div.first a:hover {
+    background-color: #00f9ff;
+    color: #000000;
+}
+
+div.second a:hover {
+    background-color: #00d2ff;
+    color: #000000;
+}
+
+div.third a:hover {
+    background-color:#009fff;
+    color: #000000;
+}
+
+div.fourth a:hover {
+    background-color: #0078ff;
+    color: #000000;
+}
+
+div.fifth a:hover {
+    background-color: #0051ff;
+    color: #000000;
+}
+
+
+/* Responsive layout - when the screen is less 
+than 700px wide, make the two columns stack on top 
+of each other instead of next to each other */
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}

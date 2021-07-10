@@ -1,0 +1,47 @@
+<img src= className="member_pic" />
+                                <div className="member_name"> Name </div>
+                                <div className="member_post"> Post </div>
+
+.member_plate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.member_pic {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    animation: zoomeffect 1s ease-out;
+    cursor: pointer;
+}
+
+@keyframes zoomeffect {
+    0% {
+        transform: scale(0,0);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.member_post {
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.member_name {
+    text-align: center;
+    font-weight: 800;
+    margin-top: -100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.member_plate:hover {
+    color: var(--text-color-2);
+}

@@ -1,0 +1,109 @@
+header{
+    background-color: #000000;
+    background-image: url(../images/four.gif);
+    height: 500px;
+    float:none;
+    position:relative;
+    bottom:65px;
+}
+
+h1{
+    color: #ffffff;
+    text-align:center;
+    font-size: 600%;
+    position: relative;
+    top: 35%;
+}
+
+ul.spotlight{
+    position:relative;
+    bottom: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #181919;
+    float: right;
+}
+
+li.right{
+    padding: 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li.first a:hover {
+    background-color: #00f9ff;
+    color: #000000;
+}
+
+li.second a:hover {
+    background-color: #00d2ff;
+    color: #000000;
+}
+
+li.third a:hover {
+    background-color:#009fff;
+    color: #000000;
+}
+
+li.fourth a:hover {
+    background-color: #0078ff;
+    color: #000000;
+}
+
+li.fifth a:hover {
+    background-color: #0051ff;
+    color: #000000;
+}
+
+
+section.two{
+    color:#ffffff;
+    display:inline-block;
+    float:left;
+    position:relative;
+    bottom: 70px;
+    width: 60%;
+    margin-left: 5%;
+    font-size: 110%;
+}
+
+ul.branch{
+    list-style-type:none;
+}
+
+h3{
+    text-align:center;
+    color:#ffffff;
+}
+
+footer{
+    clear:both;
+    position:relative;
+    display:block;
+    bottom:0;
+    height: 150px;
+    margin-top: 50px;
+    background-color: #181919;
+    color: #ffffff;
+}
+p{
+    padding-bottom: 15px;
+    padding-top: 30px;
+    font-size: 120%;
+    text-align:center;
+}
+
+hr.two{
+    width: 80%;
+    text-align: left;
+}
+

@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+    flex:30%;
+    padding:50px;
+}
+
+img.mag{
+    border: 5px solid #181919;
+    padding: 20px;
+}
+ 
+img:hover{
+    background-color: #515252;
+}
+
+a.button{
+  display:flex;
+  justify-content: space-around;
+  width: 430px;
+  text-decoration: none;
+  background-color: #181919;
+  color: white;
+  padding: 14px 20px;
+}
+
+a.button:hover{
+    background-color:#515252;
+}
+
+h2.one{
+    font-size: 300%;
+    position: relative;
+    top: 50px;
+    margin: 5%; 
+    text-align: center;
+    color:#ffffff;
+}
+
+h2.two{
+    font-size: 300%;
+    text-align: center;
+    color:#ffffff;
+}
+hr{
+    width: 80%;
+}
+
+/*ul.article{
+    background-color:#181919;
+    list-style-type:none;
+    width:100%;
+}
+
+a.article{
+    color: white;
+    text-align:center;
+    text-decoration:none;
+    font-size: 150%;
+}
+
+li.article{
+    padding:20px;
+    border-top: 1px solid rgba(256,256,256, 0.25)
+}
+
+From here it is fully different colors for the
+different links numbered using pseudo-classes
+ 
+ul.article li.article:hover:nth-child(1) {
+    width:100%;
+    background-color: blue;
+}
+ul.article li.article:hover:nth-child(2) {
+    width:100%;
+    background-color: pink;
+}
+ul.article li.article:hover:nth-child(3) {
+    width:100%;
+    background-color: green;
+}
+ul.article li.article:hover:nth-child(4) {
+    width:100%;
+    background-color: grey;
+}
+ul.article li.article:hover:nth-child(5) {
+    width:100%;
+    background-color: pink;
+}
+ul.article li.article:hover:nth-child(6) {
+    width:100%;
+    background-color: purple;
+}
+ul.article li.article:hover:nth-child(7) {
+    width:100%;
+    background-color: yellow;
+}
+ul.article li.article:hover:nth-child(8) {
+    width:100%;
+    background-color: red;
+}
+ul.article li.article:hover:nth-child(9) {
+    width:100%;
+    background-color: orange;
+}
+ul.article li.article:hover:nth-child(10) {
+    width:100%;
+    background-color: pink;
+}
+ul.article li.article:hover:nth-child(11) {
+    width:100%;
+    background-color: teal;
+}
+ul.article li.article:hover:nth-child(12) {
+    width:100%;
+    background-color: purple;
+}
+ul.article li.article:hover:nth-child(13) {
+    width:100%;
+    background-color: orange;
+}
+ul.article li.article:hover:nth-child(14) {
+    width:100%;
+    background-color: yellow;
+}
+ul.article li.article:hover:nth-child(15) {
+    width:100%;
+    background-color: indigo;
+}
+Pseudo-Classes and different colors done
+*/
+
+footer{
+    padding: 60px;
+    background-color: #181919; 
+}
